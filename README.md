@@ -38,7 +38,9 @@ A minimalistic to-do list application written in Rust.
 
    If no file path is provided, the application will default to "todo.txt" in the current directory.
 
-   Alternatively, download a binary from the [releases](https://github.com/ryankembrey/todo/releases) page.
+
+Alternatively, download a binary from the [releases](https://github.com/ryankembrey/todo/releases) page. This does not require 
+any prerequisites to be installed.
 
 ## Usage
 
