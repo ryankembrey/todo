@@ -8,6 +8,7 @@ A minimalistic to-do list application written in Rust.
 - View tasks with their respective deadlines.
 - Delete tasks by selecting their numbers.
 - Edit tasks to update names or deadlines.
+- Specify the file path directly as the first command-line argument for more flexibility in task storage.
 
 ## Getting Started
 
@@ -32,10 +33,12 @@ A minimalistic to-do list application written in Rust.
 3. Run the application:
 
     ```bash
-    ./target/release/todo
+    ./target/release/todo [optional_file_path]
     ```
 
-Alternatively, download a binary from the [releases](https://github.com/ryankembrey/todo/releases) page.
+   If no file path is provided, the application will default to "todo.txt" in the current directory.
+
+   Alternatively, download a binary from the [releases](https://github.com/ryankembrey/todo/releases) page.
 
 ## Usage
 
